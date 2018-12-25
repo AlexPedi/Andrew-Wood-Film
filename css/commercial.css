@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio (https://startbootstrap.com/template-overviews/2-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  background-color: #939393;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  body {
+  }
+}
+
+.navbar {
+	padding-bottom: 25px;
+}
+
+.nav-link, .navbar-brand {
+	color: white;
+}
+
+
+
+.hover-animation{
+	width: 100%;
+	height: 250px;
+	display: inline-block;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid #000;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.one{background-image: url(https://i.vimeocdn.com/video/711378865_1560x878.webp);}
+.two{background-image: url(https://i.vimeocdn.com/video/714807652_1560x878.webp);}
+.three{background-image: url(https://i.vimeocdn.com/video/715983115_1560x878.webp);}
+.four{background-image: url(https://i.vimeocdn.com/video/715982838_1560x878.webp);}
+.five{background-image: url(https://i.vimeocdn.com/video/715983045_1560x878.webp);}
+
+.hover-animation:before,
+.hover-animation:after {
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	content: '';
+	position: absolute;
+	background: inherit;
+	transition: .2s;
+}
+
+.hover-animation:after {
+	padding: 65px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	background: #3b4242;
+	transform: translateY(100%);
+	content: attr(data-text);
+}
+
+.hover-animation:hover:before {
+	transform: translateY(-50%);
+}
+
+.hover-animation:hover:after {
+	transform: translateY(0);
+}
+
+.btn-group, .btn-group-toggle {
+	align-content: center;
+	display: flex; 
+	justify-content: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.active {
+  background-color: #3b4242;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #d1d1d1;
+  color: black;
+}
+
+.modal {
+	color: black;
+}
+
+.btn-primary  {
+	background-color: blue;
+}
+
+.btn-primary:hover  {
+	background-color: #3232ff;
+	color: white;
+}
+
+.btn-secondary {
+	background-color: grey;
+}
