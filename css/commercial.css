@@ -37,11 +37,11 @@ body {
 	
 }
 
-.one{background-image: url(https://i.vimeocdn.com/video/711378865_1560x878.webp);}
-.two{background-image: url(https://i.vimeocdn.com/video/714807652_1560x878.webp);}
-.three{background-image: url(https://i.vimeocdn.com/video/715983115_1560x878.webp);}
-.four{background-image: url(https://i.vimeocdn.com/video/715982838_1560x878.webp);}
-.five{background-image: url(https://i.vimeocdn.com/video/715983045_1560x878.webp);}
+.one{background-image: url("../Thumbnails/ZeroDollars.png");}
+.two{background-image: url("../Thumbnails/Clara.png");}
+.three{background-image: url("../Thumbnails/Matt.png");}
+.four{background-image: url("../Thumbnails/Shannon.png");}
+.five{background-image: url("../Thumbnails/Suveg.png");}
 
 .hover-animation:before,
 .hover-animation:after {

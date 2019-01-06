@@ -40,12 +40,12 @@ body {
 	
 }
 
-.one{background-image: url("../Thumbnails/WhenPigsFly.png");}
-.two{background-image: url("../Thumbnails/Reel.png");}
-.three{background-image: url("../Thumbnails/Boiling.png");}
-.four{background-image: url("../Thumbnails/MadWhale.png");}
-.five{background-image: url("../Thumbnails/TwoGuys.png");}
-.six{ background-image: url("../Thumbnails/Enoch.png");}
+.one{background-image: url(https://i.vimeocdn.com/video/659843717_1560x878.webp);}
+.two{background-image: url(https://i.vimeocdn.com/video/642072494_1560x878.webp);}
+.three{background-image: url(https://i.vimeocdn.com/video/719632508_1560x878.webp);}
+.four{background-image: url(https://i.vimeocdn.com/video/694984420_1560x878.webp);}
+.five{background-image: url(https://img.youtube.com/vi/tH7OiBtH3oE/hqdefault.jpg);}
+.six{ background-image: url("https://lh3.google.com/u/0/d/1fgYcu0Rq2BctBXWtekw8phdxnV7hVnDG=w640-h400-k-iv1");}
 
 .hover-animation:before,
 .hover-animation:after {
